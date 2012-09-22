@@ -15,6 +15,8 @@ I have not tried this under Equinox.
 2. Make sure you're using SBT v0.11.3 (required for the sbtosgi 0.3.0-SNAPSHOT dependency, as it's not cross-built).
 3. At the command line at the root of the project, type `sbt update compile osgi-bundle`
 
+Note: since sbtosgi 0.3.0 has been released, the build file has been updated accordingly. Also, for use with ServiceMix 4.4.2, which bundles Karaf 2.2.4, and support osgi.core 4.0.0, these version number is adjusted as well.
+
 ## Installing Karaf
 This information was shamelessly stolen from the sbtosgi-example project referenced above, though altered to reflect the runtime and requirements of this project.
 

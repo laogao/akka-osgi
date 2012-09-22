@@ -13,8 +13,8 @@ resolvers ++= Seq("ebay open source" at "http://ebayopensource.org/nexus/content
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" % "akka-actor" % "2.1-SNAPSHOT",
-  "org.osgi" % "org.osgi.core" % "4.2.0" % "provided",
-  "org.apache.karaf" % "apache-karaf" % "2.2.7")
+  "org.osgi" % "org.osgi.core" % "4.0.0" % "provided",
+  "org.apache.karaf" % "apache-karaf" % "2.2.4" % "provided")
 
 OsgiKeys.bundleActivator := Some("com.jamieallen.osgi.actor.managed.Activator")
 
